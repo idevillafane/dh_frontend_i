@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+/* Header */
+
+header {
+    background-color: #E5E6E5;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    }
+
+h1, h2 {
+    background-color: #c4c4c4;
+    color: #005677;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+h1{
+    font-size: 30px;
+}
+nav ul li {
+    display: inline-block;
+}
+
+/* Main */
+
+.container{
+    margin: 40px auto;
+    max-width: 70%;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.container span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* ul{
+    margin-left: 18px;
+} */
+
+dl, dd {
+    margin-left: 40px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #005677;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+footer a {
+    color: #fff;
+}
